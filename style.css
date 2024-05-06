@@ -1,3 +1,26 @@
 body {
-    background-color: rgb(188, 157, 125);
+    background-color: rgb(177, 133, 106);
+}
+h1 {
+    color: rgb(100, 67, 52);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 250;
+    font-size: 50px;
+}
+
+h2 {
+    color: rgb(100, 67, 52);
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 150;
+    font-size: 30px;
+}
+
+p {
+    color: bisque;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 15px;
 }
