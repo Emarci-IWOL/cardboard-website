@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(177, 133, 106);
+    background-color: #b1856a;
 }
 h1 {
-    color: rgb(100, 67, 52);
+    color: #644334;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 250;
@@ -33,3 +33,33 @@ footer {
     font-weight: 100;
     font-size: 15px;
 }
+
+
+/* hr {
+    width: 100%; size: 2; color: #644334;
+}
+hr1 {hr width="50%" size="20" align="right" color="#644334">
+} */
+
+hr.custom {
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 15px 0;
+}
+
+hr.custom.large {
+    background:#644334;
+    height: 15px;
+}
+
+hr.custom.blue {
+    background: blue;
+}
+
+hr.custom.green {
+    background: green;
+}
+
+/* <hr width="100%" size="2" color="blue" noshade>
+<hr width="100%;" color="red" size="5"> */
