@@ -7,6 +7,7 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 250;
     font-size: 50px;
+    padding-top: 1em
 }
 
 h2 {
@@ -18,8 +19,16 @@ h2 {
 }
 
 p {
-    color: bisque;
+    color: rgb(235, 211, 181);
     text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+footer {
+    position: fixed; bottom: 2em; right: 2em;
+    color: rgb(235, 211, 181);
     font-family: 'Courier New', Courier, monospace;
     font-weight: 100;
     font-size: 15px;
