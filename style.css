@@ -56,25 +56,28 @@ footer {
 hr1 {hr width="50%" size="20" align="right" color="#644334">
 } */
 
-hr.custom {
-    height: 1px;
-    width: 100%;
-    border: 0;
-    margin: 15px 0;
-}
-
 hr.large {
-    background:#644334;
+    background:#c4a085;
     height: 20px;
+    border: 0;
 }
 
 hr.medium {
-    background:#87674b;
+    background:#866148;
     height: 15px;
+    border: 0;
 }
 
-hr.custom.green {
-    background: green;
+hr.small{
+    background: #674b3c;
+    height: 5px;
+    border: 0;
+}
+
+hr.skinny{
+    background:#e2ba99;
+    height: 1px;
+    border: 0;
 }
 
 .box {
