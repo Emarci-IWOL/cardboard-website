@@ -1,13 +1,21 @@
 body {
+/*    background-image: url("/assets/monitor-tiling.png");
+    background-repeat: repeat; */
+    background-color: rgb(177, 133, 106);  
+}
+
+.background {
     background-image: url("/assets/monitor-tiling.png");
     background-repeat: repeat;
-    min-height: auto;
-    min-width: auto;
-    display: block;
-    background-color: #b1856a;
+    background-color: rgb(177, 133, 106);
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
 }
+
 h1 {
     color: #644334;
+    background-color: #bd9d879a;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 250;
@@ -17,6 +25,7 @@ h1 {
 
 h2 {
     color: rgb(100, 67, 52);
+    background-color: #bd9d879a;
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 150;
@@ -25,6 +34,7 @@ h2 {
 
 p {
     color: rgb(235, 211, 181);
+    background-color: #bd9d879a;
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 100;
@@ -34,6 +44,7 @@ p {
 footer {
     position: fixed; bottom: 2em; right: 2em;
     color: rgb(235, 211, 181);
+    background-color: #bd9d879a;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 100;
     font-size: 15px;
@@ -52,13 +63,14 @@ hr.custom {
     margin: 15px 0;
 }
 
-hr.custom.large {
+hr.large {
     background:#644334;
-    height: 15px;
+    height: 20px;
 }
 
-hr.custom.blue {
-    background: blue;
+hr.medium {
+    background:#87674b;
+    height: 15px;
 }
 
 hr.custom.green {
