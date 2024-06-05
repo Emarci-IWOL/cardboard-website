@@ -1,4 +1,9 @@
 body {
+    background-image: url("/assets/monitor-tiling.png");
+    background-repeat: repeat;
+    min-height: auto;
+    min-width: auto;
+    display: block;
     background-color: #b1856a;
 }
 h1 {
