@@ -5,7 +5,7 @@ body {
 }
 
 .background {
-    background-image: url("/assets/monitor-tiling.png");
+    background-image: url(./assets/monitor-tiling.png);
     background-repeat: repeat;
     background-color: rgb(177, 133, 106);
     min-height: 100%;
@@ -51,12 +51,6 @@ footer {
     font-size: 15px;
 }
 
-/* hr {
-    width: 100%; size: 2; color: #644334;
-}
-hr1 {hr width="50%" size="20" align="right" color="#644334">
-} */
-
 hr.large {
     background:#c4a085;
     height: 20px;
@@ -89,22 +83,18 @@ img {
     padding: 10px;
 }
 
+.container {
+    column-count: 4;
+    column-gap: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
 .box {
     --mask:
       radial-gradient(41.87px at 50% calc(100% + 25.5px),#0000 calc(99% - 5px),#000 calc(101% - 5px) 99%,#0000 101%) calc(50% - 60px) calc(50% - 17.5px + .5px)/120px 35px repeat-x,
       radial-gradient(41.87px at 50% -25.5px,#0000 calc(99% - 5px),#000 calc(101% - 5px) 99%,#0000 101%) 50% calc(50% + 17.5px)/120px 35px repeat-x;
     -webkit-mask: var(--mask);
             mask: var(--mask);
-  }
-
-/* <hr width="100%" size="2" color="blue" noshade>
-<hr width="100%;" color="red" size="5"> */
-
-.container {
-    column-count: 4;
-    column-gap: 10px;
-    max-width: 100%;
-    margin: 0 auto;
-    background: #c4a085;
-    padding: 30px;
 }
