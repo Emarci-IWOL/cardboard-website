@@ -110,6 +110,16 @@ img {
     }
 }
 
+iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+embed {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
 .box {
     --mask:
       radial-gradient(41.87px at 50% calc(100% + 25.5px),#0000 calc(99% - 5px),#000 calc(101% - 5px) 99%,#0000 101%) calc(50% - 60px) calc(50% - 17.5px + .5px)/120px 35px repeat-x,
