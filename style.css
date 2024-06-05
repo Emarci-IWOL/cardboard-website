@@ -39,6 +39,7 @@ p {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 100;
     font-size: 15px;
+    line-height: 1.7;
 }
 
 footer {
@@ -80,6 +81,14 @@ hr.skinny{
     border: 0;
 }
 
+img {
+    height: 50%;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
 .box {
     --mask:
       radial-gradient(41.87px at 50% calc(100% + 25.5px),#0000 calc(99% - 5px),#000 calc(101% - 5px) 99%,#0000 101%) calc(50% - 60px) calc(50% - 17.5px + .5px)/120px 35px repeat-x,
@@ -90,3 +99,12 @@ hr.skinny{
 
 /* <hr width="100%" size="2" color="blue" noshade>
 <hr width="100%;" color="red" size="5"> */
+
+.container {
+    column-count: 4;
+    column-gap: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #c4a085;
+    padding: 30px;
+}
